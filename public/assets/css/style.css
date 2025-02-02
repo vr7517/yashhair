@@ -1,3 +1,5 @@
+
+
 /*******************************/
 /********* General CSS *********/
 /*******************************/
@@ -253,7 +255,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     height: calc(100vh - 60px);
-    background: #D5B981;
+    background: #999999;
     overflow: hidden;
 }
 
@@ -478,7 +480,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 70px 0;
     text-align: center;
-    background: #D5B981;
+    background:#999999;;
 }
 
 .page-header h2 {
@@ -529,6 +531,7 @@ a:focus {
 /******* Section Header ********/
 /*******************************/
 .section-header {
+   
     position: relative;
     max-width: 600px;
     margin: 0 auto;
@@ -560,12 +563,14 @@ a:focus {
 /********** About CSS **********/
 /*******************************/
 .about {
+    
     position: relative;
     width: 100%;
     padding: 45px 0;
 }
 
 .about .section-header {
+    background: none;
     margin-bottom: 30px;
     margin-left: 0;
 }
@@ -642,6 +647,7 @@ a:focus {
 /********* Service CSS *********/
 /*******************************/
 .service {
+    background-color: #9998;
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
@@ -1154,6 +1160,77 @@ a:focus {
     object-fit: cover;
 }
 
+/*******************************/
+/********* Gallery CSS *********/
+/*******************************/
+.gallery {
+    background-color: #9998;
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.gallery .gallery-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    background: rgba(29, 36, 52, .04);
+    transition: .3s;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gallery .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+.gallery .gallery-img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.gallery .gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery .gallery-img:hover img {
+    transform: scale(1.1);
+}
+
+.gallery .gallery-text {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+.gallery .gallery-text h2 {
+    position: relative;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.gallery .gallery-text h3 {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+}
 
 /*******************************/
 /********* Contact CSS *********/
@@ -1166,7 +1243,7 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
+    background: url(../images/contact.png) left center no-repeat;
     background-size: contain;
 }
 

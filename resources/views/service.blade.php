@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('page_title', 'About')
+@section('page_title', 'service')
 
 @section('content')
 
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>About Us</h2>
+                    <h2>Services</h2>
                 </div>
 
             </div>
@@ -16,48 +16,55 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- About Start -->
-    <div class="about">
+    <!-- Service Start -->
+    <div class="service">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-md-6">
-                    <div class="about-img">
-                        <img src="{{ asset('assets/images/about.png') }}" alt="Image">
+            <div class="section-header text-center">
+                <p>Our Salon Services</p>
+                <h2>Best Salon and Barber Services for You</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="{{ asset('assets/images/service-1.jpeg') }}" alt="Image">
+                        </div>
+                        <h3>Hair Cut</h3>
+                        <p>
+                            Stay trendy with our professional haircuts and styling for both men and women.
+                        </p>
+                        <a class="btn" href="">Learn More</a>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="section-header text-left">
-                        <p>Learn About Us</p>
-                        <h2>Revive Your Confidence with Yash Hair Pech Studio</h2>
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            With advanced techniques, premium materials, and personalized care, we help you achieve a
-                            flawless, undetectable look. Whether you’re dealing with hair thinning, baldness, or just want a
-                            new style, Yash Hair Pech Studio is your trusted destination for hair restoration.
-                        </p>
-                        <p>
-                        <div class="container">
-                            <div class="small-container text-center">
-                                <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
-                                        Studio?</span></h3>
-                                <ul class="list-group list-unstyled mt-3">
-                                    <li class="list-group-item">✔ Natural & Undetectable Hair Patches</li>
-                                    <li class="list-group-item">✔ Customized Solutions for Men & Women</li>
-                                    <li class="list-group-item">✔ Painless, Non-Surgical Hair Fixing</li>
-                                    <li class="list-group-item">✔ Expert Consultation & Personalized Service</li>
-                                    <li class="list-group-item">✔ Affordable & Long-Lasting Results</li>
-                                </ul>
-                            </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="{{ asset('assets/images/service-2.jpeg') }}" alt="Image">
                         </div>
+                        <h3>Hair Patch</h3>
+                        <p>
+                            Restore your confidence with natural hair patches. non-surgical
+                            solutions for a perfect blend with your natural hair.
                         </p>
-                        {{-- <a class="btn" href="">Learn More</a> --}}
+                        <a class="btn" href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="{{ asset('assets/images/service-3.png') }}" alt="Image">
+                        </div>
+                        <h3>Bridal & Party Makeovers</h3>
+                        <p>
+                            Look your best on your special day with our custom bridal and party makeover services.
+                        </p>
+                        <a class="btn" href="">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <!-- Service End -->
 
 
     <!-- Team Start -->

@@ -22,9 +22,15 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/service', function () {
+    return view('service');
 });
-Route::get('/welcome1', function () {
+Route::get('/gallary', function () {
+    return view('gallary');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/', function () {
     return view('welcome');
 });

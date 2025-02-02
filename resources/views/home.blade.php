@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('page_title','Home')
-    
+@section('page_title', 'Home')
+
 @section('content')
     <!-- Hero Start -->
     <div class="hero">
@@ -8,42 +8,45 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <div class="hero-text">
-                        <h1>HTML5 Template for Salon Website</h1>
+                        <h1>Hair Pech Studio | Jabalpur </h1>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasell nec pretum mi. Curabi ornare velit non. Aliqua metus tortor auctor quis sem.
+                            At Yash Hair Pech Studio, we specialize in natural-looking hair patches, wigs, and non-surgical
+                            hair replacement solutions to give you a flawless look.
                         </p>
-                        <a class="btn" href="https://htmlcodex.com/barber-shop-template">Download Now</a>
+                        <a class="btn" href="https://htmlcodex.com/barber-shop-template"> Contact Us</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-none d-md-block">
                     <div class="hero-image">
-                        <img src="{{asset('assets/images/hero.png')}}" alt="Hero Image">
+                        <img src="{{ asset('assets/images/hero.png') }}" alt="Hero Image">
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                data-target="#videoModal">
                 <span></span>
             </button>
         </div>
     </div>
-    <!-- Hero End -->
 
     <!-- Video Modal Start-->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>        
+                    </button>
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
     <!-- Video Modal End -->
 
 
@@ -53,20 +56,35 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-6">
                     <div class="about-img">
-                        <img src="img/about.jpg" alt="Image">
+                        <img src="{{ asset('assets/images/about.png') }}" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6">
                     <div class="section-header text-left">
                         <p>Learn About Us</p>
-                        <h2>25 Years Experience</h2>
+                        <h2>Revive Your Confidence with Yash Hair Pech Studio</h2>
                     </div>
                     <div class="about-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                            With advanced techniques, premium materials, and personalized care, we help you achieve a
+                            flawless, undetectable look. Whether you’re dealing with hair thinning, baldness, or just want a
+                            new style, Yash Hair Pech Studio is your trusted destination for hair restoration.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+
+                        <div class="container">
+                            <div class="small-container text-center">
+                                <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
+                                        Studio?</span></h3>
+                                <ul class="list-group list-unstyled mt-3">
+                                    <li class="list-group-item">✔ Natural & Undetectable Hair Patches</li>
+                                    <li class="list-group-item">✔ Customized Solutions for Men & Women</li>
+                                    <li class="list-group-item">✔ Painless, Non-Surgical Hair Fixing</li>
+                                    <li class="list-group-item">✔ Expert Consultation & Personalized Service</li>
+                                    <li class="list-group-item">✔ Affordable & Long-Lasting Results</li>
+                                </ul>
+                            </div>
+                        </div>
                         </p>
                         <a class="btn" href="">Learn More</a>
                     </div>
@@ -88,11 +106,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-1.jpg" alt="Image">
+                            <img src="{{ asset('assets/images/service-1.jpeg') }}" alt="Image">
                         </div>
                         <h3>Hair Cut</h3>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
+                            Stay trendy with our professional haircuts and styling for both men and women.
                         </p>
                         <a class="btn" href="">Learn More</a>
                     </div>
@@ -100,11 +118,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-2.jpg" alt="Image">
+                            <img src="{{ asset('assets/images/service-2.jpeg') }}" alt="Image">
                         </div>
-                        <h3>Beard Style</h3>
+                        <h3>Hair Patch</h3>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
+                            Restore your confidence with natural hair patches. non-surgical
+                            solutions for a perfect blend with your natural hair.
                         </p>
                         <a class="btn" href="">Learn More</a>
                     </div>
@@ -112,11 +131,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-3.jpg" alt="Image">
+                            <img src="{{ asset('assets/images/service-3.png') }}" alt="Image">
                         </div>
-                        <h3>Color & Wash</h3>
+                        <h3>Bridal & Party Makeovers</h3>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
+                            Look your best on your special day with our custom bridal and party makeover services.
                         </p>
                         <a class="btn" href="">Learn More</a>
                     </div>
@@ -142,7 +161,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Hair Cut</h2>
-                            <h3>$9.99</h3>
+                            <h3>₹150</h3>
                         </div>
                     </div>
                 </div>
@@ -153,7 +172,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Hair Wash</h2>
-                            <h3>$10.99</h3>
+                            <h3>₹100</h3>
                         </div>
                     </div>
                 </div>
@@ -164,7 +183,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Hair Color</h2>
-                            <h3>$11.99</h3>
+                            <h3>₹120</h3>
                         </div>
                     </div>
                 </div>
@@ -175,7 +194,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Hair Shave</h2>
-                            <h3>$12.99</h3>
+                            <h3>₹140</h3>
                         </div>
                     </div>
                 </div>
@@ -186,7 +205,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Hair Straight</h2>
-                            <h3>$13.99</h3>
+                            <h3>₹150</h3>
                         </div>
                     </div>
                 </div>
@@ -197,7 +216,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Facial</h2>
-                            <h3>$14.99</h3>
+                            <h3>₹200</h3>
                         </div>
                     </div>
                 </div>
@@ -208,7 +227,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Shampoo</h2>
-                            <h3>$15.99</h3>
+                            <h3>₹300</h3>
                         </div>
                     </div>
                 </div>
@@ -219,7 +238,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Beard Trim</h2>
-                            <h3>$16.99</h3>
+                            <h3>₹120</h3>
                         </div>
                     </div>
                 </div>
@@ -230,7 +249,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Beard Shave</h2>
-                            <h3>$17.99</h3>
+                            <h3>₹150</h3>
                         </div>
                     </div>
                 </div>
@@ -241,7 +260,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Wedding Cut</h2>
-                            <h3>$18.99</h3>
+                            <h3>₹250</h3>
                         </div>
                     </div>
                 </div>
@@ -252,7 +271,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Clean Up</h2>
-                            <h3>$19.99</h3>
+                            <h3>₹150</h3>
                         </div>
                     </div>
                 </div>
@@ -263,7 +282,7 @@
                         </div>
                         <div class="price-text">
                             <h2>Massage</h2>
-                            <h3>$20.99</h3>
+                            <h3>₹150</h3>
                         </div>
                     </div>
                 </div>
@@ -271,8 +290,8 @@
         </div>
     </div>
     <!-- Pricing End -->
-    
-    
+
+
     <!-- Testimonial Start -->
     <div class="testimonial">
         <div class="container">
@@ -280,7 +299,9 @@
                 <div class="testimonial-item">
                     <img src="img/testimonial-1.jpg" alt="Image">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat. Fusce venenatis at lectus in malesuada. Suspendisse sit amet dolor et odio varius mattis.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus egestas
+                        eleifend dui ac consequat. Fusce venenatis at lectus in malesuada. Suspendisse sit amet dolor et
+                        odio varius mattis.
                     </p>
                     <h2>Client Name</h2>
                     <h3>Profession</h3>
@@ -288,7 +309,9 @@
                 <div class="testimonial-item">
                     <img src="img/testimonial-2.jpg" alt="Image">
                     <p>
-                        Phasellus pellentesque tempus pretium. Quisque in enim sit amet purus venenatis porttitor sed non velit. Vivamus vehicula finibus tortor. Aliquam vehicula molestie pulvinar. Sed varius libero in leo finibus, ac consectetur tortor rutrum.
+                        Phasellus pellentesque tempus pretium. Quisque in enim sit amet purus venenatis porttitor sed non
+                        velit. Vivamus vehicula finibus tortor. Aliquam vehicula molestie pulvinar. Sed varius libero in leo
+                        finibus, ac consectetur tortor rutrum.
                     </p>
                     <h2>Client Name</h2>
                     <h3>Profession</h3>
@@ -296,7 +319,9 @@
                 <div class="testimonial-item">
                     <img src="img/testimonial-3.jpg" alt="Image">
                     <p>
-                        Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut vestibulum massa. Integer quis magna non enim luctus interdum. Phasellus sed eleifend erat. Aliquam ligula ex, semper vel tempor pellentesque, pretium eu nulla.
+                        Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut
+                        vestibulum massa. Integer quis magna non enim luctus interdum. Phasellus sed eleifend erat. Aliquam
+                        ligula ex, semper vel tempor pellentesque, pretium eu nulla.
                     </p>
                     <h2>Client Name</h2>
                     <h3>Profession</h3>
@@ -308,7 +333,7 @@
 
 
     <!-- Team Start -->
-    <div class="team">
+    {{-- <div class="team">
         <div class="container">
             <div class="section-header text-center">
                 <p>Our Barber Team</p>
@@ -361,10 +386,105 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Team End -->
-    
-    
+
+
+    <!-- gallary Start -->
+    <div class="gallery">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Gallery</p>
+                <h2>Our Best Collection</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Hair Cut</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-1.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Hair Wash</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-2.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Hair Color</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-3.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Hair Shave</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-4.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Hair Straight</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-5.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Facial</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-6.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Shampoo</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-7.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Beard Trim</h2>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Gallary End -->
+
+
     <!-- Contact Start -->
     <div class="contact">
         <div class="container-fluid">
@@ -376,19 +496,23 @@
                             <div id="success"></div>
                             <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                 <div class="control-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                        required="required" data-validation-required-message="Please enter a subject" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <textarea class="form-control" id="message" placeholder="Message" required="required"
+                                        data-validation-required-message="Please enter your message"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div>
@@ -405,7 +529,7 @@
 
 
     <!-- Blog Start -->
-    <div class="blog">
+    {{-- <div class="blog">
         <div class="container">
             <div class="section-header text-center">
                 <p>Latest From Blog</p>
@@ -425,7 +549,8 @@
                     <div class="blog-text">
                         <h2>Lorem ipsum dolor</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
+                            metus tortor
                         </p>
                         <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                     </div>
@@ -443,7 +568,8 @@
                     <div class="blog-text">
                         <h2>Lorem ipsum dolor</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
+                            metus tortor
                         </p>
                         <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                     </div>
@@ -461,7 +587,8 @@
                     <div class="blog-text">
                         <h2>Lorem ipsum dolor</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
+                            metus tortor
                         </p>
                         <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                     </div>
@@ -479,7 +606,8 @@
                     <div class="blog-text">
                         <h2>Lorem ipsum dolor</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
+                            metus tortor
                         </p>
                         <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                     </div>
@@ -497,7 +625,8 @@
                     <div class="blog-text">
                         <h2>Lorem ipsum dolor</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
+                            metus tortor
                         </p>
                         <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                     </div>
@@ -515,13 +644,14 @@
                     <div class="blog-text">
                         <h2>Lorem ipsum dolor</h2>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
+                            metus tortor
                         </p>
                         <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Blog End -->    
+    </div> --}}
+    <!-- Blog End -->
 @endsection
