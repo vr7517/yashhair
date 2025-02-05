@@ -16,13 +16,14 @@
     </div>
     <!-- Page Header End -->
 
- <!-- Contact Start -->
- <div class="contact">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-4"></div>
-                <div class="col-md-8">
+    <!-- Contact Start -->
+    <div class="contact">
+        <div class="container-fluid flex">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="img">
+                        <img src="{{ asset('assets/images/Contact.png') }}" alt="" >
+                    </div>
                     <div class="contact-form">
                         <div id="success"></div>
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
@@ -51,11 +52,11 @@
                             </div>
                         </form>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Contact End -->
+    <!-- Contact End -->
 
 @endsection

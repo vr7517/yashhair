@@ -223,31 +223,33 @@
             <div class="row mx-1">
                 <div class="row row-cols-1 row-cols-md-4 g-4">
                     <div class="col">
-                        <div class="card">
-                            <img src="{{ asset('assets/images/price-1.png') }}" class="card-img-top" alt="...">
+                        <div class="card ">
+                            <img src="{{ asset('assets/images/price-1.png') }}" class="card-img-top p-2" alt="..." height="140px">
                             <div class="card-body px-10 py-0">
-                                <h5 class="card-title">Hair cut</h5>
+                                <h6 class="card-title ">Hair cut</h6>
                                 <p class="card-text">₹150</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="{{ asset('assets/images/price-2.png') }}" class="card-img-top p-2" alt="..." height="140px">
+                            <div class="card-body px-10 py-0">
+                                <h6 class="card-title">Hair patch</h6>
+                                <p class="card-text">₹1200</p>
                             </div>
                         </div>
                     </div>
 
                    
 
+                    
                     <div class="col">
                         <div class="card">
-                            <img src="{{ asset('assets/images/price-2.png') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('assets/images/price-3.png') }}" class="card-img-top p-2" alt="..." height="140px">
                             <div class="card-body px-10 py-0">
-                                <h5 class="card-title">Hair patch</h5>
-                                <p class="card-text">₹1200</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{ asset('assets/images/price-3.png') }}" class="card-img-top" alt="...">
-                            <div class="card-body px-10 py-0">
-                                <h5 class="card-title">Hair color</h5>
+                                <h6 class="card-title">Hair color</h6>
                                 <p class="card-text">₹250</p>
                             </div>
                         </div>
@@ -255,9 +257,9 @@
 
                     <div class="col">
                         <div class="card">
-                            <img src="{{ asset('assets/images/price-4.png') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('assets/images/price-3.png') }}" class="card-img-top p-2" alt="..." height="140px">
                             <div class="card-body px-10 py-0">
-                                <h5 class="card-title">Hair cut</h5>
+                                <h6 class="card-title">Hair cut</h6>
                                 <p class="card-text">₹150</p>
                             </div>
                         </div>
@@ -508,40 +510,41 @@
 
     <!-- Contact Start -->
     <div class="contact">
-        <div class="container-fluid">
+        <div class="container-fluid flex">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-8">
-                        <div class="contact-form">
-                            <div id="success"></div>
-                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                <div class="control-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                        required="required" data-validation-required-message="Please enter a subject" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" id="message" placeholder="Message" required="required"
-                                        data-validation-required-message="Please enter your message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div>
-                                    <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
+                    <div class="img">
+                        <img src="{{ asset('assets/images/Contact.png') }}" alt="" >
                     </div>
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                    required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" id="message" placeholder="Message" required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -254,8 +254,8 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
-    height: calc(100vh - 60px);
-    background: #999999;
+    height: calc(100vh - 80px);
+    background: #737373;
     overflow: hidden;
 }
 
@@ -480,7 +480,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 70px 0;
     text-align: center;
-    background:#999999;;
+    background:#737373;;
 }
 
 .page-header h2 {
@@ -1249,13 +1249,23 @@ a:focus {
 
 .contact .container-fluid {
     
-    background: url(../images/contact.png) left center no-repeat ;
+    /* background: url(../images/contact.png) left center no-repeat ; */
     background-size: contain;
     
 }
 
+.contact .img img{
+    width: 500px;
+    position: relative;
+    
+    padding: 90px 0 90px 45px;
+    background: #1d2434;
+
+}
+
 .contact .contact-form {
     position: relative;
+    min-width: 600px;
     padding: 90px 0 90px 45px;
     background: #1d2434;
 }
