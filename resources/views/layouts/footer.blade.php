@@ -10,9 +10,9 @@
                         <p><i class="fa fa-envelope"></i><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f59c9b939ab5908d9498859990db969a98">[email&#160;protected]</a></p>
                         <div class="footer-social">
                             <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/p/Yash-Hair-Pacth-Studieo-Jabalpur-61556069313370/"><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/yashhairpatch/"><i class="fab fa-instagram"></i></a>
                             <a href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
@@ -46,10 +46,10 @@
 <div class="container copyright">
     <div class="row">
         <div class="col-md-6">
-            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+            <p>&copy; <a href="#">Yash Hair</a>, All Right Reserved.</p>
         </div>
         <div class="col-md-6">
-            <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            <p>Designed By <a href="https://htmlcodex.com">Rohit Namdeo</a></p>
         </div>
     </div>
 </div>
