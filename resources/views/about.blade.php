@@ -36,7 +36,7 @@
                             flawless, undetectable look. Whether you’re dealing with hair thinning, baldness, or just want a
                             new style, Yash Hair Pech Studio is your trusted destination for hair restoration.
                         </p>
-                        <p>
+                        {{-- <p>
                         <div class="container">
                             <div class="small-container text-center">
                                 <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
@@ -50,7 +50,7 @@
                                 </ul>
                             </div>
                         </div>
-                        </p>
+                        </p> --}}
                         {{-- <a class="btn" href="">Learn More</a> --}}
                     </div>
                 </div>

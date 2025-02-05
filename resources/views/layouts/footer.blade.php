@@ -49,7 +49,7 @@
             <p>&copy; <a href="#">Yash Hair</a>, All Right Reserved.</p>
         </div>
         <div class="col-md-6">
-            <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            <p>Designed By <a href="https://htmlcodex.com">Rohit Namdeo</a></p>
         </div>
     </div>
 </div>

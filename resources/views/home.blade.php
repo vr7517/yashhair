@@ -70,8 +70,8 @@
                             flawless, undetectable look. Whether you’re dealing with hair thinning, baldness, or just want a
                             new style, Yash Hair Pech Studio is your trusted destination for hair restoration.
                         </p>
-                        <p>
 
+                        {{-- <p>
                         <div class="container">
                             <div class="small-container text-center">
                                 <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
@@ -86,7 +86,8 @@
                             </div>
                         </div>
                         </p>
-                        <a class="btn" href="">Learn More</a>
+                        <a class="btn" href="">Learn More</a> --}}
+
                     </div>
                 </div>
             </div>
@@ -94,72 +95,181 @@
     </div>
     <!-- About End -->
 
-
-    <!-- Service Start -->
-    <div class="service">
+    <!-- gallary Start -->
+    <div class="gallery">
         <div class="container">
             <div class="section-header text-center">
-                <p>Our Salon Services</p>
-                <h2>Best Salon and Barber Services for You</h2>
+                <p>Gallery</p>
+                <h2>Our Best Collection</h2>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/images/service-1.jpeg') }}" alt="Image">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary.png') }}" alt="Image">
                         </div>
-                        <h3>Hair Cut</h3>
-                        <p>
-                            Stay trendy with our professional haircuts and styling for both men and women.
-                        </p>
-                        <a class="btn" href="">Learn More</a>
+                        <div class="gallery-text">
+                            <h2>Hair Cut</h2>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/images/service-2.jpeg') }}" alt="Image">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-1.png') }}" alt="Image">
                         </div>
-                        <h3>Hair Patch</h3>
-                        <p>
-                            Restore your confidence with natural hair patches. non-surgical
-                            solutions for a perfect blend with your natural hair.
-                        </p>
-                        <a class="btn" href="">Learn More</a>
+                        <div class="gallery-text">
+                            <h2>Hair Wash</h2>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/images/service-3.png') }}" alt="Image">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-2.png') }}" alt="Image">
                         </div>
-                        <h3>Bridal & Party Makeovers</h3>
-                        <p>
-                            Look your best on your special day with our custom bridal and party makeover services.
-                        </p>
-                        <a class="btn" href="">Learn More</a>
+                        <div class="gallery-text">
+                            <h2>Hair Color</h2>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-3.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Hair Shave</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-4.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Hair Straight</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-5.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Facial</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-6.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Shampoo</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/images/galla/gallary-7.png') }}" alt="Image">
+                        </div>
+                        <div class="gallery-text">
+                            <h2>Beard Trim</h2>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Gallary End -->
+
+
 
 
     <!-- Pricing Start -->
     <div class="price">
-        <div class="container">
+        <div class="container ">
+            {{-- <div class="section-header text-center">
+                <p>Our Best Pricing</p>
+                <h2>We Provide Best Price in the City</h2>
+            </div> --}}
+            <p>
+            <div class="container">
+                <div class="small-container text-center">
+                    <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
+                            Studio?</span></h3>
+                    <ul class="list-group list-unstyled mt-3">
+                        <li class="list-group-item">✔ Natural & Undetectable Hair Patches</li>
+                        <li class="list-group-item">✔ Customized Solutions for Men & Women</li>
+                        <li class="list-group-item">✔ Painless, Non-Surgical Hair Fixing</li>
+                        <li class="list-group-item">✔ Expert Consultation & Personalized Service</li>
+                        <li class="list-group-item">✔ Affordable & Long-Lasting Results</li>
+                    </ul>
+                </div>
+            </div>
+            </p>
+        </div>
+        <div class="container ">
             <div class="section-header text-center">
                 <p>Our Best Pricing</p>
                 <h2>We Provide Best Price in the City</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="row mx-1">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="{{ asset('assets/images/price-1.png') }}" class="card-img-top" alt="...">
+                            <div class="card-body px-10 py-0">
+                                <h5 class="card-title">Hair cut</h5>
+                                <p class="card-text">₹150</p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="{{ asset('assets/images/price-2.png') }}" class="card-img-top" alt="...">
+                            <div class="card-body px-10 py-0">
+                                <h5 class="card-title">Hair patch</h5>
+                                <p class="card-text">₹1200</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="{{ asset('assets/images/price-3.png') }}" class="card-img-top" alt="...">
+                            <div class="card-body px-10 py-0">
+                                <h5 class="card-title">Hair color</h5>
+                                <p class="card-text">₹250</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="{{ asset('assets/images/price-4.png') }}" class="card-img-top" alt="...">
+                            <div class="card-body px-10 py-0">
+                                <h5 class="card-title">Hair cut</h5>
+                                <p class="card-text">₹150</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                {{-- <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="price-item">
                         <div class="price-img">
-                            <img src="img/price-1.jpg" alt="Image">
+                            <img src="{{ asset('assets/images/price-1.png') }}" alt="Image">
                         </div>
-                        <div class="price-text">
+                        <div class="price-text w-auto items-center justify-center">
                             <h2>Hair Cut</h2>
                             <h3>₹150</h3>
                         </div>
@@ -168,26 +278,26 @@
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="price-item">
                         <div class="price-img">
-                            <img src="img/price-2.jpg" alt="Image">
+                            <img src="{{ asset('assets/images/price-2.png') }}" alt="Image">
                         </div>
                         <div class="price-text">
-                            <h2>Hair Wash</h2>
-                            <h3>₹100</h3>
+                            <h2>Hair patch</h2>
+                            <h3>₹500</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="price-item">
                         <div class="price-img">
-                            <img src="img/price-3.jpg" alt="Image">
+                            <img src="{{ asset('assets/images/price-3.png') }}" alt="Image">
                         </div>
                         <div class="price-text">
                             <h2>Hair Color</h2>
                             <h3>₹120</h3>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
+                </div> --}}
+                {{-- <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="price-item">
                         <div class="price-img">
                             <img src="img/price-4.jpg" alt="Image">
@@ -241,51 +351,8 @@
                             <h3>₹120</h3>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-9.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Beard Shave</h2>
-                            <h3>₹150</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-10.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Wedding Cut</h2>
-                            <h3>₹250</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-11.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Clean Up</h2>
-                            <h3>₹150</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-12.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Massage</h2>
-                            <h3>₹150</h3>
-                        </div>
-                    </div>
-                </div>
+                </div> --}}
+
             </div>
         </div>
     </div>
@@ -297,40 +364,89 @@
         <div class="container">
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
-                    <img src="img/testimonial-1.jpg" alt="Image">
+                    {{-- <img src="img/testimonial-1.jpg" alt="Image"> --}}
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus egestas
-                        eleifend dui ac consequat. Fusce venenatis at lectus in malesuada. Suspendisse sit amet dolor et
-                        odio varius mattis.
+                        "Amazing service! I got a stylish haircut and a beard trim, and the staff did an excellent job. They
+                        listened to my preferences and suggested a style that suited me perfectly. The salon is clean and
+                        well-maintained. Highly recommend!"
                     </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+                    <h2>Sandeep kourav</h2>
+                    <h3>clerk</h3>
                 </div>
                 <div class="testimonial-item">
-                    <img src="img/testimonial-2.jpg" alt="Image">
+                    {{-- <img src="img/testimonial-2.jpg" alt="Image"> --}}
                     <p>
-                        Phasellus pellentesque tempus pretium. Quisque in enim sit amet purus venenatis porttitor sed non
-                        velit. Vivamus vehicula finibus tortor. Aliquam vehicula molestie pulvinar. Sed varius libero in leo
-                        finibus, ac consectetur tortor rutrum.
+                        "The overall experience was great. I opted for a hair spa, and my hair feels much healthier now. The
+                        staff was polite and professional. The only reason I'm giving four stars instead of five is that I
+                        had to wait a bit longer than expected."
                     </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+                    <h2>vivek rajpoot</h2>
+                    <h3>manager</h3>
                 </div>
                 <div class="testimonial-item">
-                    <img src="img/testimonial-3.jpg" alt="Image">
+                    {{-- <img src="img/testimonial-3.jpg" alt="Image"> --}}
                     <p>
-                        Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut
-                        vestibulum massa. Integer quis magna non enim luctus interdum. Phasellus sed eleifend erat. Aliquam
-                        ligula ex, semper vel tempor pellentesque, pretium eu nulla.
+                        "Best salon in Jabalpur! I went for a keratin treatment, and the results were beyond my
+                        expectations. My hair is super smooth and frizz-free now. The pricing is reasonable for the quality
+                        of service they provide. Will definitely visit again!"
                     </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+                    <h2>Tulsi</h2>
+                    <h3>developer</h3>
                 </div>
             </div>
         </div>
     </div>
     <!-- Testimonial End -->
 
+    <!-- Service Start -->
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Our Salon Services</p>
+                <h2>Best Salon and Barber Services for You</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="{{ asset('assets/images/service-1.jpeg') }}" alt="Image">
+                        </div>
+                        <h3>Hair Cut</h3>
+                        <p>
+                            Stay trendy with our professional haircuts and styling for both men and women.
+                        </p>
+                        <a class="btn" href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="{{ asset('assets/images/service-2.jpeg') }}" alt="Image">
+                        </div>
+                        <h3>Hair Patch</h3>
+                        <p>
+                            Restore your confidence with natural hair patches. non-surgical
+                            solutions for a perfect blend with your natural hair.
+                        </p>
+                        <a class="btn" href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="{{ asset('assets/images/service-3.png') }}" alt="Image">
+                        </div>
+                        <h3>Bridal & Party Makeovers</h3>
+                        <p>
+                            Look your best on your special day with our custom bridal and party makeover services.
+                        </p>
+                        <a class="btn" href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
 
     <!-- Team Start -->
     {{-- <div class="team">
@@ -388,101 +504,6 @@
         </div>
     </div> --}}
     <!-- Team End -->
-
-
-    <!-- gallary Start -->
-    <div class="gallery">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Gallery</p>
-                <h2>Our Best Collection</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Hair Cut</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary-1.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Hair Wash</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary-2.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Hair Color</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary-3.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Hair Shave</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary-4.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Hair Straight</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary-5.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Facial</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary-6.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Shampoo</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="{{ asset('assets/images/galla/gallary-7.png') }}" alt="Image">
-                        </div>
-                        <div class="gallery-text">
-                            <h2>Beard Trim</h2>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <!-- Gallary End -->
 
 
     <!-- Contact Start -->
