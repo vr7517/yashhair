@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Yash Hair</title>
+        <title>Yash Hair Patch Studio</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Yash Hair Petch Studio" name="keywords">
         <meta content="Yash Hair Petch Studio" name="description">
