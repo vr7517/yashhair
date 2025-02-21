@@ -28,18 +28,18 @@
                 <div class="col-lg-7 col-md-6">
                     <div class="section-header text-left">
                         <p>Learn About Us</p>
-                        <h2>Revive Your Confidence with Yash Hair Pech Studio</h2>
+                        <h2>Revive Your Confidence with Yash Hair Patch Studio</h2>
                     </div>
                     <div class="about-text">
                         <p>
                             With advanced techniques, premium materials, and personalized care, we help you achieve a
                             flawless, undetectable look. Whether you’re dealing with hair thinning, baldness, or just want a
-                            new style, Yash Hair Pech Studio is your trusted destination for hair restoration.
+                            new style, Yash Hair Patch Studio is your trusted destination for hair restoration.
                         </p>
                         {{-- <p>
                         <div class="container">
                             <div class="small-container text-center">
-                                <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
+                                <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Patch
                                         Studio?</span></h3>
                                 <ul class="list-group list-unstyled mt-3">
                                     <li class="list-group-item">✔ Natural & Undetectable Hair Patches</li>

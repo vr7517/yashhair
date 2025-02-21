@@ -8,9 +8,9 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <div class="hero-text">
-                        <h1>Hair Pech Studio | Jabalpur </h1>
+                        <h1>Yash Hair Patch Studio | Jabalpur </h1>
                         <p>
-                            At Yash Hair Pech Studio, we specialize in natural-looking hair patches, wigs, and non-surgical
+                            At Yash Hair Patch Studio, we specialize in natural-looking hair patches, wigs, and non-surgical
                             hair replacement solutions to give you a flawless look.
                         </p>
                         <a class="btn" href="https://htmlcodex.com/barber-shop-template"> Contact Us</a>
@@ -62,19 +62,19 @@
                 <div class="col-lg-7 col-md-6">
                     <div class="section-header text-left">
                         <p>Learn About Us</p>
-                        <h2>Revive Your Confidence with Yash Hair Pech Studio</h2>
+                        <h2>Revive Your Confidence with Yash Hair Patch Studio</h2>
                     </div>
                     <div class="about-text">
                         <p>
                             With advanced techniques, premium materials, and personalized care, we help you achieve a
                             flawless, undetectable look. Whether you’re dealing with hair thinning, baldness, or just want a
-                            new style, Yash Hair Pech Studio is your trusted destination for hair restoration.
+                            new style, Yash Hair Patch Studio is your trusted destination for hair restoration.
                         </p>
 
                         {{-- <p>
                         <div class="container">
                             <div class="small-container text-center">
-                                <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
+                                <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Patch
                                         Studio?</span></h3>
                                 <ul class="list-group list-unstyled mt-3">
                                     <li class="list-group-item">✔ Natural & Undetectable Hair Patches</li>
@@ -202,7 +202,7 @@
             <p>
             <div class="container">
                 <div class="small-container text-center">
-                    <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Pech
+                    <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Patch
                             Studio?</span></h3>
                     <ul class="list-group list-unstyled mt-3">
                         <li class="list-group-item">✔ Natural & Undetectable Hair Patches</li>
@@ -514,7 +514,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="img">
-                        <img src="{{ asset('assets/images/Contact.png') }}" alt="" >
+                        <img src="{{ asset('assets/images/contact.png') }}" alt="" >
                     </div>
                     <div class="contact-form">
                         <div id="success"></div>
