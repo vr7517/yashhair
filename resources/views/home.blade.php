@@ -13,7 +13,7 @@
                             At Yash Hair Patch Studio, we specialize in natural-looking hair patches, wigs, and non-surgical
                             hair replacement solutions to give you a flawless look.
                         </p>
-                        <a class="btn" href="https://htmlcodex.com/barber-shop-template"> Contact Us</a>
+                        <a class="btn" href="{{url('contact')}}"> Contact Us</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-none d-md-block">
