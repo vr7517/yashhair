@@ -228,10 +228,10 @@
 
                     <div class="col">
                         <div class="card">
-                            <img src="{{ asset('assets/images/price-3.png') }}" class="card-img-top p-2" alt="..." height="140px">
+                            <img src="{{ asset('assets/images/price-4.png') }}" class="card-img-top p-2" alt="..." height="140px">
                             <div class="card-body px-10 py-0">
-                                <h6 class="card-title">Hair cut</h6>
-                                <p class="card-text">₹150</p>
+                                <h6 class="card-title">Mackeup</h6>
+                                <p class="card-text">₹4000</p>
                             </div>
                         </div>
                     </div>
