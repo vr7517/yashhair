@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <div class="hero-text">
-                        <h1>Yash Hair Patch Studio | Jabalpur </h1>
+                        <h1 class="text-[3BBA9C]-500">Yash Hair Patch Studio | Jabalpur </h1>
                         <p>
                             At Yash Hair Patch Studio, we specialize in natural-looking hair patches, wigs, and non-surgical
                             hair replacement solutions to give you a flawless look.
@@ -70,24 +70,6 @@
                             flawless, undetectable look. Whether you’re dealing with hair thinning, baldness, or just want a
                             new style, Yash Hair Patch Studio is your trusted destination for hair restoration.
                         </p>
-
-                        {{-- <p>
-                        <div class="container">
-                            <div class="small-container text-center">
-                                <h3 class="text-center mb-4">Why Choose <span class="text-success">Yash Hair Patch
-                                        Studio?</span></h3>
-                                <ul class="list-group list-unstyled mt-3">
-                                    <li class="list-group-item">✔ Natural & Undetectable Hair Patches</li>
-                                    <li class="list-group-item">✔ Customized Solutions for Men & Women</li>
-                                    <li class="list-group-item">✔ Painless, Non-Surgical Hair Fixing</li>
-                                    <li class="list-group-item">✔ Expert Consultation & Personalized Service</li>
-                                    <li class="list-group-item">✔ Affordable & Long-Lasting Results</li>
-                                </ul>
-                            </div>
-                        </div>
-                        </p>
-                        <a class="btn" href="">Learn More</a> --}}
-
                     </div>
                 </div>
             </div>
@@ -189,16 +171,9 @@
     </div>
     <!-- Gallary End -->
 
-
-
-
     <!-- Pricing Start -->
     <div class="price">
         <div class="container ">
-            {{-- <div class="section-header text-center">
-                <p>Our Best Pricing</p>
-                <h2>We Provide Best Price in the City</h2>
-            </div> --}}
             <p>
             <div class="container">
                 <div class="small-container text-center">
@@ -240,11 +215,7 @@
                                 <p class="card-text">₹1200</p>
                             </div>
                         </div>
-                    </div>
-
-                   
-
-                    
+                    </div> 
                     <div class="col">
                         <div class="card">
                             <img src="{{ asset('assets/images/price-3.png') }}" class="card-img-top p-2" alt="..." height="140px">
@@ -264,97 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-                {{-- <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="{{ asset('assets/images/price-1.png') }}" alt="Image">
-                        </div>
-                        <div class="price-text w-auto items-center justify-center">
-                            <h2>Hair Cut</h2>
-                            <h3>₹150</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="{{ asset('assets/images/price-2.png') }}" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Hair patch</h2>
-                            <h3>₹500</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="{{ asset('assets/images/price-3.png') }}" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Hair Color</h2>
-                            <h3>₹120</h3>
-                        </div>
-                    </div>
-                </div> --}}
-                {{-- <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-4.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Hair Shave</h2>
-                            <h3>₹140</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-5.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Hair Straight</h2>
-                            <h3>₹150</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-6.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Facial</h2>
-                            <h3>₹200</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-7.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Shampoo</h2>
-                            <h3>₹300</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="price-item">
-                        <div class="price-img">
-                            <img src="img/price-8.jpg" alt="Image">
-                        </div>
-                        <div class="price-text">
-                            <h2>Beard Trim</h2>
-                            <h3>₹120</h3>
-                        </div>
-                    </div>
-                </div> --}}
-
             </div>
         </div>
     </div>
@@ -366,7 +247,6 @@
         <div class="container">
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
-                    {{-- <img src="img/testimonial-1.jpg" alt="Image"> --}}
                     <p>
                         "Amazing service! I got a stylish haircut and a beard trim, and the staff did an excellent job. They
                         listened to my preferences and suggested a style that suited me perfectly. The salon is clean and
@@ -376,7 +256,6 @@
                     <h3>clerk</h3>
                 </div>
                 <div class="testimonial-item">
-                    {{-- <img src="img/testimonial-2.jpg" alt="Image"> --}}
                     <p>
                         "The overall experience was great. I opted for a hair spa, and my hair feels much healthier now. The
                         staff was polite and professional. The only reason I'm giving four stars instead of five is that I
@@ -386,7 +265,6 @@
                     <h3>manager</h3>
                 </div>
                 <div class="testimonial-item">
-                    {{-- <img src="img/testimonial-3.jpg" alt="Image"> --}}
                     <p>
                         "Best salon in Jabalpur! I went for a keratin treatment, and the results were beyond my
                         expectations. My hair is super smooth and frizz-free now. The pricing is reasonable for the quality
@@ -450,63 +328,7 @@
     </div>
     <!-- Service End -->
 
-    <!-- Team Start -->
-    {{-- <div class="team">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Our Barber Team</p>
-                <h2>Meet Our Hair Cut Expert Barber</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-1.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Adam Phillips</h2>
-                            <p>Master Barber</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-2.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dylan Adams</h2>
-                            <p>Hair Expert</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-3.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Gloria Edwards</h2>
-                            <p>Beard Expert</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-4.jpg" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Josh Dunn</h2>
-                            <p>Color Expert</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- Team End -->
-
+ 
 
     <!-- Contact Start -->
     <div class="contact">
@@ -551,131 +373,4 @@
     </div>
     <!-- Contact End -->
 
-
-    <!-- Blog Start -->
-    {{-- <div class="blog">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Latest From Blog</p>
-                <h2>Learn More from Latest Barber Blog</h2>
-            </div>
-            <div class="owl-carousel blog-carousel">
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-1.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-meta">
-                        <i class="fa fa-list-alt"></i>
-                        <a href="">Hair Cut</a>
-                        <i class="fa fa-calendar-alt"></i>
-                        <p>01-Jan-2045</p>
-                    </div>
-                    <div class="blog-text">
-                        <h2>Lorem ipsum dolor</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
-                            metus tortor
-                        </p>
-                        <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-2.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-meta">
-                        <i class="fa fa-list-alt"></i>
-                        <a href="">Beard Style</a>
-                        <i class="fa fa-calendar-alt"></i>
-                        <p>01-Jan-2045</p>
-                    </div>
-                    <div class="blog-text">
-                        <h2>Lorem ipsum dolor</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
-                            metus tortor
-                        </p>
-                        <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-3.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-meta">
-                        <i class="fa fa-list-alt"></i>
-                        <a href="">Color & Wash</a>
-                        <i class="fa fa-calendar-alt"></i>
-                        <p>01-Jan-2045</p>
-                    </div>
-                    <div class="blog-text">
-                        <h2>Lorem ipsum dolor</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
-                            metus tortor
-                        </p>
-                        <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-4.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-meta">
-                        <i class="fa fa-list-alt"></i>
-                        <a href="">Hair Cut</a>
-                        <i class="fa fa-calendar-alt"></i>
-                        <p>01-Jan-2045</p>
-                    </div>
-                    <div class="blog-text">
-                        <h2>Lorem ipsum dolor</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
-                            metus tortor
-                        </p>
-                        <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-5.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-meta">
-                        <i class="fa fa-list-alt"></i>
-                        <a href="">Beard Style</a>
-                        <i class="fa fa-calendar-alt"></i>
-                        <p>01-Jan-2045</p>
-                    </div>
-                    <div class="blog-text">
-                        <h2>Lorem ipsum dolor</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
-                            metus tortor
-                        </p>
-                        <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-6.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-meta">
-                        <i class="fa fa-list-alt"></i>
-                        <a href="">Color & Wash</a>
-                        <i class="fa fa-calendar-alt"></i>
-                        <p>01-Jan-2045</p>
-                    </div>
-                    <div class="blog-text">
-                        <h2>Lorem ipsum dolor</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum
-                            metus tortor
-                        </p>
-                        <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- Blog End -->
 @endsection

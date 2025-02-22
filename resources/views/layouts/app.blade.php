@@ -43,6 +43,9 @@
 		@yield('content')
 		@yield('script')
 
+        
+
+
         <!-- Footer Start -->
         <div class="footer">
             @include('layouts.footer')
